@@ -6,16 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=B612|Roboto" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
+        <div><img id="topLogo" src="assets/images/TopLogo.png"></img></div>
         <h1 id="wordToGuess"></h1>
-        <div>Games Won:  <span id="winCounter">0</span></div>
-        <div>Remaining Guesses:  <span id="remGuesses"></span></div>
-        <div>Letters Guessed:</div>
-        <div id="guessedLetters"> </div>
-        <h3 id="messageArea"></h3>
-        <button id="playAgain">New Word</button>
+        
+        <div id="infoLine"><h3>Remaining Guesses:  <span id="remGuesses"></span><span id="gamesWon">Games Won:  <span id="winCounter">0</span></span></h3></div>
+        <div><h3>Letters Guessed:  <span id="guessedLetters"></span></h3></div>
+        <h2 id="messageArea"></h2>
+        <div id="buttons"><button id="playAgain">New Word</button>
+        <button id="stopMusic">Stop Music</button></div>
+        <div id="imageAndDesc"><img id="mainImage"></img><div id="description"></div></div>
+        <audio id="winMusic"></audio>
 
         <script src="assets/javascript/game.js"></script>
     </body>

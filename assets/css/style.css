@@ -1,3 +1,67 @@
+html {
+    background-image: url("../images/prism.png");
+}
+
+body {
+    width: 1200px;
+    font-family: 'Roboto', sans-serif;
+}
+
 h1 { 
-    letter-spacing: 50px; 
+    font-family: 'B612', sans-serif;
+    font-size: 32px;
+    color: #fff;
+    letter-spacing: 25px;
+    margin: 30px 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ff5;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #aaa;
+    margin: 40px 20px;
+}
+
+#topLogo {
+    width: 600px;
+    margin-top: 30px;
+    margin: 30 auto;
+}
+
+#infoLine, #buttons {
+    width: 600px;
+}
+
+#gamesWon{
+    float: right;
+}
+
+#playAgain {
+    margin-left: 20px;
+}
+
+#stopMusic{
+    float:right;
+}
+
+#mainImage {
+    width: 600px;
+    margin: 30px 20px 30px 0px;
+    float: left;
+}
+
+p {
+    margin-bottom: 1.1em;
+}
+
+#description {
+    font-size: 16px;
+    line-height: 150%;
+    color: #aaa;
+    padding: 30px 10px;
 }
