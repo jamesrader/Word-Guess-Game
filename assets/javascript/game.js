@@ -76,7 +76,7 @@ $(document).ready(function () {
         $("#messageArea").html(message);
         $("#messageArea").css("visibility", "visible");
 
-        remGuessCounter = 5;
+        remGuessCounter = 10;
         $("#remGuesses").html(remGuessCounter);
 
         displayLetters = [];
