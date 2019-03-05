@@ -9,7 +9,7 @@ $(document).ready(function () {
     var revealedLetters = [];
     var wrongLetters = [];
     var displayLetters = [];
-    var remGuessCounter = 5;
+    var remGuessCounter = 10;
     var winCounter = 0;
     var winner = 0;
     var letters = /[a-z]/;
